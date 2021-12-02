@@ -11,7 +11,7 @@ $config['system.performance']['js']['preprocess'] = FALSE;
 // Loads misc drupal services - See services.yml file
 // Uncomment if needed
 // $settings['container_yamls'][] = $app_root .
-'/sites/default/local.development.services.yml';
+//'/sites/default/local.development.services.yml';
 // Disable the render cache and disable dynamic page cache
 // This causes the site to be slower locally, but helps out
 // in development
@@ -25,8 +25,7 @@ $config['system.performance']['js']['preprocess'] = FALSE;
 // of web root, we can more easilly have the config stored in git, without
 // comprimising the config data being exposed.
 $settings['config_sync_directory'] = $app_root . '/../config/sync';
-// These module configs should never be exported, since they are development
-modules
+// These module configs should never be exported, since they are development modules
 $settings['config_exclude_modules'] = ['devel', 'stage_file_proxy'];
 // See: https://www.drupal.org/docs/installing-drupal/trusted-host-settings
 $settings['trusted_host_patterns'] = [

@@ -16,6 +16,7 @@
     ],
     "require": {
         "composer/installers": "^1.9",
+        "drupal/address": "^1.9",
         "drupal/admin_toolbar": "^3.0",
         "drupal/coffee": "^1.2",
         "drupal/core-composer-scaffold": "^9.2",
@@ -23,7 +24,8 @@
         "drupal/core-recommended": "^9.2",
         "drupal/gin": "^3.0@alpha",
         "drupal/module_filter": "^3.2",
-        "drupal/pathauto": "^1.8"
+        "drupal/pathauto": "^1.8",
+        "drush/drush": "^10.6"
     },
     "conflict": {
         "drupal/drupal": "*"
